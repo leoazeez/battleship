@@ -1,0 +1,415 @@
+Microsoft (R) Visual Basic Compiler version 14.7.3190
+for Visual Basic 2012
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to Visual Basic 2012, which is no longer the latest version. For compilers that support newer versions of the Visual Basic programming language, see http://go.microsoft.com/fwlink/?LinkID=533241
+
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\EndingGameController.vb(18) : error BC30562: 'DrawField' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        DrawField(ComputerPlayer.PlayerGrid, ComputerPlayer, True)
+        ~~~~~~~~~                                                 
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(114) : error BC30562: 'AddExplosion' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+            AddExplosion(row, column)
+            ~~~~~~~~~~~~             
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(117) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        Audio.PlaySoundEffect(GameSound("Hit"))
+                              ~~~~~~~~~        
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(119) : error BC30562: 'DrawAnimationSequence' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        DrawAnimationSequence()
+        ~~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(124) : error BC30562: 'AddSplash' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+            AddSplash(row, column)
+            ~~~~~~~~~             
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(127) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        Audio.PlaySoundEffect(GameSound("Miss"))
+                              ~~~~~~~~~         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(129) : error BC30562: 'DrawAnimationSequence' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        DrawAnimationSequence()
+        ~~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(145) : error BC30562: 'Message' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+            Message = "You " & result.ToString()
+            ~~~~~~~                             
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(147) : error BC30562: 'Message' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+            Message = "The AI " & result.ToString()
+            ~~~~~~~                                
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(153) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                Audio.PlaySoundEffect(GameSound("Sink"))
+                                      ~~~~~~~~~         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(157) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                Audio.PlaySoundEffect(GameSound("Sink"))
+                                      ~~~~~~~~~         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(159) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                While Audio.SoundEffectPlaying(GameSound("Sink"))
+                                               ~~~~~~~~~         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(165) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                    Audio.PlaySoundEffect(GameSound("Lose"))
+                                          ~~~~~~~~~         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(167) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                    Audio.PlaySoundEffect(GameSound("Winner"))
+                                          ~~~~~~~~~           
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(175) : error BC30562: 'GameSound' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                Audio.PlaySoundEffect(GameSound("Error"))
+                                      ~~~~~~~~~          
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(252) : error BC30562: 'HandleMainMenuInput' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                HandleMainMenuInput()
+                ~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(254) : error BC30562: 'HandleGameMenuInput' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                HandleGameMenuInput()
+                ~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(256) : error BC30562: 'HandleSetupMenuInput' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                HandleSetupMenuInput()
+                ~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(258) : error BC30562: 'HandleDeploymentInput' is ambiguous between declarations in Modules 'DeploymentController' and 'DeploymentController'.
+
+                HandleDeploymentInput()
+                ~~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(260) : error BC30562: 'HandleDiscoveryInput' is ambiguous between declarations in Modules 'DiscoveryController' and 'DiscoveryController'.
+
+                HandleDiscoveryInput()
+                ~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(262) : error BC30562: 'HandleEndOfGameInput' is ambiguous between declarations in Modules 'EndingGameController' and 'EndingGameController'.
+
+                HandleEndOfGameInput()
+                ~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(264) : error BC30562: 'HandleHighScoreInput' is ambiguous between declarations in Modules 'HighScoreController' and 'HighScoreController'.
+
+                HandleHighScoreInput()
+                ~~~~~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(267) : error BC30562: 'UpdateAnimations' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        UpdateAnimations()
+        ~~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(277) : error BC30562: 'DrawBackground' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        DrawBackground()
+        ~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(281) : error BC30562: 'DrawMainMenu' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                DrawMainMenu()
+                ~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(283) : error BC30562: 'DrawGameMenu' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                DrawGameMenu()
+                ~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(285) : error BC30562: 'DrawSettings' is ambiguous between declarations in Modules 'MenuController' and 'MenuController'.
+
+                DrawSettings()
+                ~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(287) : error BC30562: 'DrawDeployment' is ambiguous between declarations in Modules 'DeploymentController' and 'DeploymentController'.
+
+                DrawDeployment()
+                ~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(289) : error BC30562: 'DrawDiscovery' is ambiguous between declarations in Modules 'DiscoveryController' and 'DiscoveryController'.
+
+                DrawDiscovery()
+                ~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(291) : error BC30562: 'DrawEndOfGame' is ambiguous between declarations in Modules 'EndingGameController' and 'EndingGameController'.
+
+                DrawEndOfGame()
+                ~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(293) : error BC30562: 'DrawHighScores' is ambiguous between declarations in Modules 'HighScoreController' and 'HighScoreController'.
+
+                DrawHighScores()
+                ~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(296) : error BC30562: 'DrawAnimations' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        DrawAnimations()
+        ~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb(308) : error BC30562: 'Message' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        Message = ""
+        ~~~~~~~     
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(7) : error BC30562: 'LoadResources' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        LoadResources()
+        ~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(9) : error BC30562: 'GameMusic' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        SwinGame.PlayMusic(GameMusic("Background"))
+                           ~~~~~~~~~               
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(13) : error BC30562: 'HandleUserInput' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            HandleUserInput()
+            ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(14) : error BC30562: 'DrawScreen' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            DrawScreen()
+            ~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(15) : error BC30562: 'CurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+        Loop Until SwinGame.WindowCloseRequested() = True Or CurrentState = GameState.Quitting
+                                                             ~~~~~~~~~~~~                     
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb(20) : error BC30562: 'FreeResources' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        FreeResources()
+        ~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(114) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        SwinGame.DrawText("   High Scores   ", Color.White, GameFont("Courier"), SCORES_LEFT, SCORES_HEADING)
+                                                            ~~~~~~~~                                         
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(125) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawText(" " & (i + 1) & ":   " & s.Name & "   " & s.Value, Color.White, GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP)
+                                                                                                  ~~~~~~~~                                                     
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(127) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawText(i + 1 & ":   " & s.Name & "   " & s.Value, Color.White, GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP)
+                                                                                          ~~~~~~~~                                                     
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(138) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            EndCurrentState()
+            ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(159) : error BC30562: 'AddNewState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            AddNewState(GameState.ViewingHighScores)
+            ~~~~~~~~~~~                             
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(162) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+            x = SCORES_LEFT + SwinGame.TextWidth(GameFont("Courier"), "Name: ")
+                                                 ~~~~~~~~                      
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(164) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+            SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameFont("Courier"), x, ENTRY_TOP)
+                                                               ~~~~~~~~                          
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(170) : error BC30562: 'DrawBackground' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+                DrawBackground()
+                ~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(172) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawText("Name: ", Color.White, GameFont("Courier"), SCORES_LEFT, ENTRY_TOP)
+                                                         ~~~~~~~~                                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb(186) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            EndCurrentState()
+            ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(89) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            EndCurrentState()
+            ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(105) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                EndCurrentState()
+                ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(180) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+            SwinGame.DrawTextLines(_menuStructure(menu)(i), MENU_COLOR, Color.Black, GameFont("Menu"), FontAlignment.AlignCenter, toDraw)
+                                                                                     ~~~~~~~~                                            
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(208) : error BC30562: 'IsMouseInRectangle' is ambiguous between declarations in Modules 'UtilityFunctions' and 'UtilityFunctions'.
+
+        Return IsMouseInRectangle(btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
+               ~~~~~~~~~~~~~~~~~~                                              
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(234) : error BC30562: 'StartGame' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                StartGame()
+                ~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(236) : error BC30562: 'AddNewState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                AddNewState(GameState.AlteringSettings)
+                ~~~~~~~~~~~                            
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(238) : error BC30562: 'AddNewState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                AddNewState(GameState.ViewingHighScores)
+                ~~~~~~~~~~~                             
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(240) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                EndCurrentState()
+                ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(251) : error BC30562: 'SetDifficulty' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                SetDifficulty(AIOption.Hard)
+                ~~~~~~~~~~~~~               
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(253) : error BC30562: 'SetDifficulty' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                SetDifficulty(AIOption.Hard)
+                ~~~~~~~~~~~~~               
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(255) : error BC30562: 'SetDifficulty' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                SetDifficulty(AIOption.Hard)
+                ~~~~~~~~~~~~~               
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(258) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+        EndCurrentState()
+        ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(268) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                EndCurrentState()
+                ~~~~~~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(270) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                EndCurrentState() 'end game menu
+                ~~~~~~~~~~~~~~~                 
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(271) : error BC30562: 'EndCurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                EndCurrentState() 'end game
+                ~~~~~~~~~~~~~~~            
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb(273) : error BC30562: 'AddNewState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+                AddNewState(GameState.Quitting)
+                ~~~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(164) : error BC30562: 'GameImage' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawBitmap(GameImage(shipName), colLeft, rowTop)
+                                    ~~~~~~~~~                            
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(192) : error BC30562: 'GameFont' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        SwinGame.DrawText(Message, MESSAGE_COLOR, GameFont("Courier"), FIELD_LEFT, MESSAGE_TOP)
+                                                  ~~~~~~~~                                     
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(200) : error BC30562: 'CurrentState' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+        Select Case CurrentState
+                    ~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(202) : error BC30562: 'GameImage' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawBitmap(GameImage("Menu"), 0, 0)
+                                    ~~~~~~~~~               
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(204) : error BC30562: 'GameImage' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawBitmap(GameImage("Discovery"), 0, 0)
+                                    ~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(206) : error BC30562: 'GameImage' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+                SwinGame.DrawBitmap(GameImage("Deploy"), 0, 0)
+                                    ~~~~~~~~~                 
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(228) : error BC30562: 'GameImage' is ambiguous between declarations in Modules 'GameResources' and 'GameResources'.
+
+        imgObj = GameImage(image)
+                 ~~~~~~~~~       
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb(267) : error BC30562: 'DrawScreen' is ambiguous between declarations in Modules 'GameController' and 'GameController'.
+
+            DrawScreen()
+            ~~~~~~~~~~  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\DeploymentController.vb(7) : error BC30175: module 'DeploymentController' and module 'DeploymentController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\DeploymentController.vb', conflict in namespace '<Default>'.
+
+Module DeploymentController
+       ~~~~~~~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\DiscoveryController.vb(6) : error BC30175: module 'DiscoveryController' and module 'DiscoveryController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\DiscoveryController.vb', conflict in namespace '<Default>'.
+
+Module DiscoveryController
+       ~~~~~~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\EndingGameController.vb(8) : error BC30175: module 'EndingGameController' and module 'EndingGameController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\EndingGameController.vb', conflict in namespace '<Default>'.
+
+Module EndingGameController
+       ~~~~~~~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\GameController.vb(8) : error BC30175: module 'GameController' and module 'GameController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameController.vb', conflict in namespace '<Default>'.
+
+Public Module GameController
+              ~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\GameLogic.vb(1) : error BC30175: module 'GameLogic' and module 'GameLogic', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameLogic.vb', conflict in namespace '<Default>'.
+
+Module GameLogic
+       ~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\GameResources.vb(4) : error BC30175: module 'GameResources' and module 'GameResources', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameResources.vb', conflict in namespace '<Default>'.
+
+Public Module GameResources
+              ~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\GameState.vb(7) : error BC30175: enum 'GameState' and enum 'GameState', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\GameState.vb', conflict in namespace '<Default>'.
+
+Public Enum GameState
+            ~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\HighScoreController.vb(10) : error BC30175: module 'HighScoreController' and module 'HighScoreController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\HighScoreController.vb', conflict in namespace '<Default>'.
+
+Module HighScoreController
+       ~~~~~~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\MenuController.vb(9) : error BC30175: module 'MenuController' and module 'MenuController', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\MenuController.vb', conflict in namespace '<Default>'.
+
+Module MenuController
+       ~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIHardPlayer.vb(8) : error BC30175: class 'AIHardPlayer' and class 'AIHardPlayer', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\AIHardPlayer.vb', conflict in namespace '<Default>'.
+
+Public Class AIHardPlayer : Inherits AIPlayer
+             ~~~~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIHardPlayer.vb(8) : error BC30610: Class 'AIHardPlayer' must either be declared 'MustInherit' or override the following inherited 'MustOverride' member(s): 
+    AIPlayer : Protected MustOverride Sub GenerateCoords(ByRef row As Integer, ByRef column As Integer)
+    AIPlayer : Protected MustOverride Sub ProcessShot(row As Integer, col As Integer, result As AttackResult).
+
+Public Class AIHardPlayer : Inherits AIPlayer
+             ~~~~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIMediumPlayer.vb(6) : error BC30175: class 'AIMediumPlayer' and class 'AIMediumPlayer', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\AIMediumPlayer.vb', conflict in namespace '<Default>'.
+
+Public Class AIMediumPlayer : Inherits AIPlayer
+             ~~~~~~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIMediumPlayer.vb(6) : error BC30610: Class 'AIMediumPlayer' must either be declared 'MustInherit' or override the following inherited 'MustOverride' member(s): 
+    AIPlayer : Protected MustOverride Sub GenerateCoords(ByRef row As Integer, ByRef column As Integer)
+    AIPlayer : Protected MustOverride Sub ProcessShot(row As Integer, col As Integer, result As AttackResult).
+
+Public Class AIMediumPlayer : Inherits AIPlayer
+             ~~~~~~~~~~~~~~                    
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIOption.vb(4) : error BC30175: enum 'AIOption' and enum 'AIOption', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\AIOption.vb', conflict in namespace '<Default>'.
+
+Public Enum AIOption
+            ~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AIPlayer.vb(5) : error BC30175: class 'AIPlayer' and class 'AIPlayer', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\AIPlayer.vb', conflict in namespace '<Default>'.
+
+Public MustInherit Class AIPlayer : Inherits Player
+                         ~~~~~~~~                  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\AttackResult.vb(4) : error BC30175: class 'AttackResult' and class 'AttackResult', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\AttackResult.vb', conflict in namespace '<Default>'.
+
+Public Class AttackResult
+             ~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\BattleShipsGame.vb(7) : error BC30175: class 'BattleShipsGame' and class 'BattleShipsGame', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\BattleShipsGame.vb', conflict in namespace '<Default>'.
+
+Public Class BattleShipsGame
+             ~~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\Direction.vb(4) : error BC30175: enum 'Direction' and enum 'Direction', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\Direction.vb', conflict in namespace '<Default>'.
+
+Public Enum Direction
+            ~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\ISeaGrid.vb(5) : error BC30175: interface 'ISeaGrid' and interface 'ISeaGrid', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\ISeaGrid.vb', conflict in namespace '<Default>'.
+
+Public Interface ISeaGrid
+                 ~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\Player.vb(5) : error BC30175: class 'Player' and class 'Player', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\Player.vb', conflict in namespace '<Default>'.
+
+Public Class Player : Implements IEnumerable(Of Ship)
+             ~~~~~~                                  
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\ResultOfAttack.vb(4) : error BC30175: enum 'ResultOfAttack' and enum 'ResultOfAttack', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\ResultOfAttack.vb', conflict in namespace '<Default>'.
+
+Public Enum ResultOfAttack
+            ~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\SeaGrid.vb(9) : error BC30175: class 'SeaGrid' and class 'SeaGrid', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\SeaGrid.vb', conflict in namespace '<Default>'.
+
+Public Class SeaGrid
+             ~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\SeaGridAdapter.vb(5) : error BC30175: class 'SeaGridAdapter' and class 'SeaGridAdapter', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\SeaGridAdapter.vb', conflict in namespace '<Default>'.
+
+Public Class SeaGridAdapter
+             ~~~~~~~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\Ship.vb(9) : error BC30175: class 'Ship' and class 'Ship', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\Ship.vb', conflict in namespace '<Default>'.
+
+Public Class Ship
+             ~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\ShipName.vb(5) : error BC30175: enum 'ShipName' and enum 'ShipName', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\ShipName.vb', conflict in namespace '<Default>'.
+
+Public Enum ShipName
+            ~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\Tile.vb(5) : error BC30175: class 'Tile' and class 'Tile', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\Tile.vb', conflict in namespace '<Default>'.
+
+Public Class Tile
+             ~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\Model\TileView.vb(4) : error BC30175: enum 'TileView' and enum 'TileView', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\Model\TileView.vb', conflict in namespace '<Default>'.
+
+Public Enum TileView
+            ~~~~~~~~
+D:\uniwork\Development project\New folder\c# with errors check now\battleships\src\UtilityFunctions.vb(5) : error BC30175: module 'UtilityFunctions' and module 'UtilityFunctions', declared in 'D:\uniwork\Development project\New folder\c# with errors check now\battleships\battleships\src\UtilityFunctions.vb', conflict in namespace '<Default>'.
+
+Module UtilityFunctions
+       ~~~~~~~~~~~~~~~~
+vbc : error BC30041: Maximum number of errors has been exceeded.
